@@ -97,7 +97,7 @@ class Cell {
         if (this.tile == null || this.mergeTile == null) return
         this.tile.value = this.tile.value + this.mergeTile.value
         this.mergeTile.remove()
-        this.mergeTile == null
+        this.mergeTile = null
     }
 }
 
